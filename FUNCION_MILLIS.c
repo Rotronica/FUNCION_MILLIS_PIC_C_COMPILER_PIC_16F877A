@@ -1,3 +1,10 @@
+/*
+ * Autor:Rodrigo Calle C.
+ * El siguiente programa realiza el parpadeo de leds con distintos tiempos, todos parpadeando paralelamente esto se hace con el uso
+ * de la funicion llamada millis el cual es utilizado en arduino y otros programas para embebidos, es una forma muy eficiente de programacion
+ * sin utilizar la sentencia delay_ms() ya que el delay detiene o trunca la secuencia o flujo de nuestro codigo.
+ * esta funcion hace uso del TMR0
+ */
 #include <16f877a.h>
 #fuses xt,nowdt,noput,noprotect,nolvp,nobrownout
 #use delay(clock = 4M)
